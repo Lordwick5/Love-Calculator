@@ -1,0 +1,36 @@
+body {
+    background-image: url('colorful-love-hearts-wallpaper-free-image-ezgif.com-webp-to-jpg-converter.jpg');
+    background-size: cover; /* Ensures the image fully covers the screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-attachment: fixed; /* Keeps it fixed when scrolling */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white; /* Adjust text color for better visibility */
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px black; /* Enhances readability */
+}
+
+.button1 {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.button1:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
